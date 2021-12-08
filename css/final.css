@@ -1,0 +1,185 @@
+
+.background
+  { 
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+   }
+
+.background::after {
+    content: "";
+    background: url(https://user-images.githubusercontent.com/92996381/144872899-1d2935e0-2237-4273-b559-647a986734e0.jpg); 
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    }
+
+  
+ .header{ text-align: center;
+    color: black;   
+}
+
+.article{
+    text-align: center;
+    color: black;
+    font-size: 150%;
+}
+
+form{
+    text-align: center;
+}
+
+.button{
+    margin: 20px;
+}
+
+.container {
+    position: relative;
+    left: auto;
+    right: auto;
+    width: 50%;
+  }
+  
+  .image {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-self: center;
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(https://user-images.githubusercontent.com/92996381/144609731-e28b1ff3-1350-4b65-b379-e01a6a4893aa.jpg);
+    background-size: cover;
+ }
+ 
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlaymma {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(https://user-images.githubusercontent.com/92996381/145020631-255d3d78-6d57-4c7d-9bac-4993a46247a0.jpg);
+    background-size: cover;
+ }
+  
+  .container:hover .overlaymma {
+    opacity: 1;
+  }
+
+  .overlaymt {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(https://user-images.githubusercontent.com/92996381/145023431-f8d21ca4-8d2c-4320-9244-684540ebac16.jpg);
+    background-size: cover;
+ }
+  
+  .container:hover .overlaymt {
+    opacity: 1;
+  }
+  
+  
+  .motivation{
+    align-content: center;
+  }
+
+  .ohjaaja{
+    margin: 20px;
+    font-style: italic;
+
+  }
+  .BJJ{
+    font-style: italic;
+    
+  }
+  .BJJHead{
+    margin: 20px;
+    font-style: italic;
+  }
+  .footsie{
+    margin: 30px;
+    color: black;
+    }
+    
+    
+    .gallery {
+      border: 1px solid #ccc;
+    }
+    
+    .gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .desc {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+    
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
