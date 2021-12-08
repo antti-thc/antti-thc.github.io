@@ -23,8 +23,11 @@
     }
 
   
- .header{ text-align: center;
-    color: black;   
+ .header{ 
+   text-align: center;
+   color: black;
+   margin: 0;
+   
 }
 
 .article{
